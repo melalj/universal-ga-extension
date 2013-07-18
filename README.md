@@ -30,8 +30,8 @@ Page view
 
 Event
 
-    ga.pageview("Event Category", "Event Action"); // Event category & action are required
-    ga.pageview("Event Category", "Event Action", "Event Label"  12); // 12 is the event Value
+    ga.event("Event Category", "Event Action"); // Event category & action are required
+    ga.event("Event Category", "Event Action", "Event Label"  12); // 12 is the event Value
 
 Social interactions - [Check here for more info](https://developers.google.com/analytics/devguides/collection/gajs/gaTrackingSocial)
 
