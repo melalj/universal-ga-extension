@@ -15,8 +15,8 @@ ExtGA.prototype = {
     appVersion : null,
     appName : null,
     uId : null,
-    getPref : window.localStorage.getItem,
-    setPref : window.localStorage.setItem,
+    getPref : function(key) { return window.localStorage.getItem(key); },
+    setPref : function(key, val) { return window.localStorage.setItem(key, val); },
 
     /**
      * Initilization function
